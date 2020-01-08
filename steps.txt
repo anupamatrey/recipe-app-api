@@ -1,0 +1,7 @@
+1 . Create Docker File
+    run docker build . command
+2 . Create requirements.txt
+3 . Create Docker Compose yml file
+    run docker-compose build
+4. Create App
+    docker-compose run app sh -c "django-admin.py startproject app ."
