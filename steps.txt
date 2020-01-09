@@ -5,3 +5,5 @@
     run docker-compose build
 4. Create App
     docker-compose run app sh -c "django-admin.py startproject app ."
+5. Run Test Cases
+    docker-compose run app sh -c "python manage.py test && flake8"
